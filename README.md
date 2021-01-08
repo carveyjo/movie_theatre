@@ -12,6 +12,7 @@ Open up localhost:8080/phpmyadmin in Chrome and go to 'databases'->'create datab
 There is no need to create a user or password as it will use 'root' as user and no password required. Go to the table database view at localhost:8080/movie_theatre/tables/database.html to view the table and go to the cash register or receipt generator from there.
 
 HTML pages you can use:
+
 Form:localhost:8080/movie_theatre/forms/cash_register.html
 
 Receipt: localhost:8080/movie_theatre/tables/receipt.html
