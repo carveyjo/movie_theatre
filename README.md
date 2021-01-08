@@ -13,8 +13,11 @@ There is no need to create a user or password as it will use 'root' as user and 
 
 HTML pages you can use:
 Form:localhost:8080/movie_theatre/forms/cash_register.html
+
 Receipt: localhost:8080/movie_theatre/tables/receipt.html
+
 Database: localhost:8080/movie_theatre/tables/database.html
+
 How the form works:
 Max quantity of a ticket or food beverage is 10. Select a quanity from the movies/food beverages and hit the submit button.
 Once you hit submit, you can click the receipt button and it will go to a page where the query selects the most recent transaction submittted to the database. From there you can either go back to the cash register for another customer or view the database of historical receipts with additional data including the timestamp. There is also the ability to search and export the data as csv, excel, or copy.
